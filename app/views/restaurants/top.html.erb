@@ -1,0 +1,8 @@
+
+<% @restaurants.each do |r| %>
+    <div class="p-3 mb-3">
+        <h3><%= r.name %></h3>
+        <h3><%= r.address %></h3>
+        <h3><%= r.rating %></h3>
+    </div>
+<% end %>
